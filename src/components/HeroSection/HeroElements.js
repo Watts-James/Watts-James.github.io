@@ -10,8 +10,6 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-
-    /* add: before styles */
 `
 
 export const HeroBg = styled.div`
@@ -47,6 +45,7 @@ export const HeroH1 = styled.h1`
     color: #d4c85b;
     font-size: 48px;
     text-align: center;
+    font-family: 'Albert Sans', sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -59,7 +58,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #fff;
+    color: #f2cfda;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
@@ -79,6 +78,7 @@ export const HeroBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
