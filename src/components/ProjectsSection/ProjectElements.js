@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const ProjectContainer = styled.div`
-    background: #5b2379;
+    background-image: url("https://i.imgur.com/yJUFvaS.png");
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
