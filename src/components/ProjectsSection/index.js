@@ -1,13 +1,11 @@
 import React from 'react'
-import { ProjectContainer, ProjectContent,Project,ProjectText, ProjectImg, ProjectTitleWrapper,ProjectInfo, ProjectTitle} from './ProjectElements'
+import { ProjectContainer, ProjectContent,Project,ProjectText, ProjectImg, ProjectTitleWrapper,ProjectInfo, ProjectTitle,ProjectHeader, ProjectHeaderWrapper} from './ProjectElements'
 
 
 const ProjectSection = () => {
   return (
     <ProjectContainer>
-        
         <ProjectContent>
-            
             <Project> 
                 <ProjectTitleWrapper>
                     <ProjectTitle>

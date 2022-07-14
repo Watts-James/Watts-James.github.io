@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import ProjectSection from '../components/ProjectsSection'
 
 
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
