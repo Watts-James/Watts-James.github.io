@@ -1,25 +1,29 @@
 import styled from 'styled-components'
 
 export const ProjectContainer = styled.div`
-    background: #34044c;
+    background: #5b2379;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    height: auto;
     position: relative;
     z-index: 1;
 `
-
-
 
 export const ProjectContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1000px;
+    margin: 25px;
     flex-direction: column;
     border-radius:25px;
+    background: #69328a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-style: outset;
+    border-color: #9c52a1;
     
 `
 export const Project = styled.div`
@@ -32,20 +36,18 @@ export const Project = styled.div`
     flex-direction: column;
     border-radius: 15px 50px 30px;
     overflow: hidden;
-    perspective: 1px;
-    
-    
+    perspective: 1px;    
 `
 
 export const ProjectImg = styled.div`
-    padding: 20px;
-    background: #662c7c;
-    
+    background: #b398c8;
+    display:flex;
 `
 
 export const ProjectText = styled.div`
     padding: 20px;
-    background: #8053a4;
+    background: #ccbadb;
+    overflow: hidden;
     
 `
 
@@ -54,12 +56,24 @@ export const ProjectTitle = styled.div`
     justify-content: center;
     align-items: center;
     height: 50px;
-    background: #662c7c;
+    background: #000;
     column-span: all;
-    
+    font-weight: bold;
+    color: #d4c85b;
     
 `
 export const ProjectInfo = styled.div`
     display: flex;
     flex-direction: row;
+    background: #ccbadb;
+
+    @media screen and (max-width:768px) {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
 `
+
+
+
+
