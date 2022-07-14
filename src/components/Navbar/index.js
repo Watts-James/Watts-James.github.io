@@ -23,7 +23,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to="/link">Link</NavBtnLink>
+                  <NavBtnLink to="/link">Résumé</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

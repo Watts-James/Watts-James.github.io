@@ -27,7 +27,7 @@ export const ProjectContent = styled.div`
     
 `
 export const Project = styled.div`
-    background: #8053a4;
+    background: #000;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -51,7 +51,7 @@ export const ProjectText = styled.div`
     
 `
 
-export const ProjectTitle = styled.div`
+export const ProjectTitleWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,6 @@ export const ProjectTitle = styled.div`
     column-span: all;
     font-weight: bold;
     color: #d4c85b;
-    
 `
 export const ProjectInfo = styled.div`
     display: flex;
@@ -73,6 +72,21 @@ export const ProjectInfo = styled.div`
         align-items: center;
     }
 `
+
+export const Image = styled.img`
+    width: 200px;
+    height: 200px;
+`
+
+export const ProjectTitle = styled.div`
+    position: relative;
+    left: 35%;
+
+    @media and screen (max-width:768px){
+        left:30%;
+    }
+`
+
 
 
 
