@@ -43,6 +43,11 @@ export const Project = styled.div`
     overflow: hidden;
     perspective: 1px;    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    &:hover{
+        transition: all 0.5 ease-in-out;
+        width: 95%;
+    }
 `
 
 export const ProjectImg = styled.div`

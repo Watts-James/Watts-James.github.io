@@ -71,6 +71,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+    
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -81,16 +82,22 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    &:hover{
+        transition: all 0.5 ease-in-out;
+        color: #d4c85b;
+    }
 
     &.active{
         border-bottom: 3px solid #01bf71;
     }
+    
 `;
 
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
     font-weight: bold;
+    
     
     @media screen and (max-width: 768px) {
         display:none;
