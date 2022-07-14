@@ -5,6 +5,8 @@ import HeroSection from '../components/HeroSection'
 import Footer from '../components/Footer'
 import ProjectSection from '../components/ProjectsSection'
 import ProjectTitle from '../components/ProjectTitle'
+import AboutTitle from '../components/AboutTitle'
+import AboutSection from '../components/AboutSection'
 
 
 
@@ -22,6 +24,8 @@ const Home = () => {
         <HeroSection />
         <ProjectTitle />
         <ProjectSection />
+        <AboutTitle />
+        <AboutSection />
         <Footer />
     </>
   )

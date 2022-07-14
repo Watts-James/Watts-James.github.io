@@ -47,7 +47,9 @@ export const Project = styled.div`
 
     &:hover{
         transition: all 0.5 ease-in-out;
-        width: 95%;
+        width: 91%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+        
     }
 `
 
