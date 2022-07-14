@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import Footer from '../components/Footer'
 import ProjectSection from '../components/ProjectsSection'
+import ProjectTitle from '../components/ProjectTitle'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection />
+        <ProjectTitle />
         <ProjectSection />
         <Footer />
     </>

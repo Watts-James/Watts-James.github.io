@@ -9,6 +9,7 @@ export const ProjectContainer = styled.div`
     position: relative;
     z-index: 1;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 `
 
 export const ProjectContent = styled.div`
