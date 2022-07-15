@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7da34c1.css",
-    "main.js": "/static/js/main.01249d07.js",
+    "main.js": "/static/js/main.267d1785.js",
     "static/media/file.mp4": "/static/media/file.e61a187360adaf0af641.mp4",
     "static/media/Me.png": "/static/media/Me.3d8d7058c41ff825396d.png",
     "static/media/BoredGames.png": "/static/media/BoredGames.59d57d8993cf961778c6.png",
@@ -10,10 +10,10 @@
     "static/media/DataMining.png": "/static/media/DataMining.07859156af79ba7525e4.png",
     "index.html": "/index.html",
     "main.d7da34c1.css.map": "/static/css/main.d7da34c1.css.map",
-    "main.01249d07.js.map": "/static/js/main.01249d07.js.map"
+    "main.267d1785.js.map": "/static/js/main.267d1785.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.01249d07.js"
+    "static/js/main.267d1785.js"
   ]
 }
