@@ -16,7 +16,10 @@ const HeroSection = () => {
         <HeroContent>
           <HeroH1> James Watts</HeroH1>
           <HeroP>
-            Full Stack developer, all around cool guy.
+            Full Stack developer.
+          </HeroP>
+          <HeroP>
+            Passionate about Web, Application and Software Development.
           </HeroP>
           <HeroBtnWrapper>
             <Button to='/Link' onMouseEnter={onHover} 

@@ -72,6 +72,7 @@ export const Image = styled.img`
 
 export const AboutText = styled.div`
     display: flex;
+    flex-direction: column;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -96,8 +97,12 @@ export const SkillIcon = styled.div`
 `
 
 export const SkillText = styled.div`
-    font-size: 10px;
+    font-size: 12px;
     display:flex;
     flex-direction: column;
     margin-top: 10px;
+`
+
+export const AboutLink = styled.div`
+    padding-top: 30px;
 `

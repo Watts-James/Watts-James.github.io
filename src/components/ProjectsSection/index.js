@@ -9,15 +9,15 @@ const ProjectSection = () => {
             <Project> 
                 <ProjectTitleWrapper>
                     <ProjectTitle>
-                        Title
+                        Dungeons & Deadlifts
                     </ProjectTitle>
                 </ProjectTitleWrapper>
                 <ProjectInfo>
                     <ProjectImg>
-                        <img src={require('./test.jpg')} width="200" height = "200"/>
+                        <img src={require('./Dungeons&Deadlifts.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        Workout Tracker meets classic RPG. Dungeons & Deadlifts was crafted using Android Studio. Complete with persistent back-end and fully animated custom characters.
                     </ProjectText>
                 </ProjectInfo>
             </Project>
@@ -25,15 +25,15 @@ const ProjectSection = () => {
             <Project> 
                 <ProjectTitleWrapper>
                     <ProjectTitle>
-                        Title
+                        Portfolio Website
                     </ProjectTitle>
                 </ProjectTitleWrapper>
                 <ProjectInfo>
                     <ProjectImg>
-                        <img src={require('./test.jpg')} width="200" height = "200"/>
+                        <img src={require('./Website.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        Built from the ground up using React. Mobile friendly and very purple.
                     </ProjectText>
                 </ProjectInfo>
             </Project>
@@ -41,15 +41,15 @@ const ProjectSection = () => {
             <Project> 
                 <ProjectTitleWrapper>
                     <ProjectTitle>
-                        Title
+                        JamesBot
                     </ProjectTitle>
                 </ProjectTitleWrapper>
                 <ProjectInfo>
                     <ProjectImg>
-                        <img src={require('./test.jpg')} width="200" height = "200"/>
+                        <img src={require('./discord.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        A Notification Bot for discord, notifys the server when the first person enters a voice chat, a feature Discord was desperately lacking. Utilizes the Discord API through DiscordJs.
                     </ProjectText>
                 </ProjectInfo>
             </Project>
@@ -57,15 +57,31 @@ const ProjectSection = () => {
             <Project> 
                 <ProjectTitleWrapper>
                     <ProjectTitle>
-                        Title
+                        Bored Games
                     </ProjectTitle>
                 </ProjectTitleWrapper>
                 <ProjectInfo>
                     <ProjectImg>
-                        <img src={require('./test.jpg')} width="200" height = "200"/>
+                        <img src={require('./BoredGames.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        A prototype app developed to provide personally relevant reviews for board and card games. Built using React and the Board Game Atlas API.
+                    </ProjectText>
+                </ProjectInfo>
+            </Project>
+
+            <Project> 
+                <ProjectTitleWrapper>
+                    <ProjectTitle>
+                        Understanding Criminal Justice
+                    </ProjectTitle>
+                </ProjectTitleWrapper>
+                <ProjectInfo>
+                    <ProjectImg>
+                        <img src={require('./DataMining.png')} width="200" height = "200"/>
+                    </ProjectImg>
+                    <ProjectText> 
+                        Data mined large data sets of incarceration rates throughout Canada using the FP-Growth algorithm. Implemented using Python and SQL.
                     </ProjectText>
                 </ProjectInfo>
             </Project>

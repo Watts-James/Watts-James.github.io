@@ -50,7 +50,6 @@ export const Project = styled.div`
 
     &:hover{
         transition: all 0.5 ease-in-out;
-       
         box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
     }
 `
@@ -66,6 +65,7 @@ export const ProjectText = styled.div`
     padding: 20px;
     background: #FFF;
     overflow: hidden;
+    font-size: 20px;
 `
 
 export const ProjectTitleWrapper = styled.div`
@@ -97,8 +97,14 @@ export const ProjectInfo = styled.div`
 
 export const ProjectTitle = styled.div`
     position: relative;
-    left: 35%;
-
+    left: 30%;
+    margin-right:20px;
+    @media screen and (max-width:768px) {
+        justify-content:center;
+        align-items: center;
+        align-text: center;
+        left: 0;
+    }
 `
 
 
