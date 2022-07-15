@@ -1,5 +1,6 @@
 import React from 'react'
-import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image} from './AboutElements'
+import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image,SkillIcon} from './AboutElements'
+import {DiJavascript1} from 'react-icons/di';
 
 const AboutSection = () => {
   return (
@@ -15,7 +16,20 @@ const AboutSection = () => {
             </AboutImg>
           </AboutPersonal>
 
-          <AboutSkills />
+          <AboutSkills>
+            <SkillIcon> <DiJavascript1/> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+            <SkillIcon> </SkillIcon>
+          </AboutSkills>
         </AboutContent>
     </AboutContainer>
   )

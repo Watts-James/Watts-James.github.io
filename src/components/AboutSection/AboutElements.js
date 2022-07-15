@@ -38,20 +38,26 @@ export const AboutPersonal = styled.div`
     border: solid;
     width: 95%;
     @media screen and (max-width:768px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 `
 
 export const AboutSkills = styled.div`
-    background: #000;
+    display: flex;
+    flex-direction: row;
     padding: 20px;
     width: 95%;
-    height: 200px;
+    justify-content: center;
     margin: 20px;
+    background: #FFF;
+    flex-wrap: wrap;
+    
+    
 `
 export const AboutImg = styled.div`
     display: flex;
     padding: 20px;
+    justify-content: center;
     
 `
 export const Image = styled.img`
@@ -65,4 +71,16 @@ export const AboutText = styled.div`
     padding: 20px;
     justify-content: center;
     align-items: center;
+`
+
+export const SkillIcon = styled.div`
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    background: #FFbF;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
 `
