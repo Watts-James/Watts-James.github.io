@@ -3,7 +3,7 @@ import {ProjectTitleContainer, ProjectTitleWrapper, ProjectTitleBox} from './Pro
 
 const ProjectTitle = () => {
   return (
-    <ProjectTitleContainer>
+    <ProjectTitleContainer id="projects">
         <ProjectTitleBox>
             <ProjectTitleWrapper>
                 <h1>Projects</h1>

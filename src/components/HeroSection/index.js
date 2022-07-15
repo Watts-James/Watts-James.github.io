@@ -9,7 +9,7 @@ const HeroSection = () => {
     setHover(!hover);
   }
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='Video/mp4'/>
         </HeroBg>

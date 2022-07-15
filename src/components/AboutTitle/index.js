@@ -3,7 +3,7 @@ import {AboutTitleContainer, AboutTitleWrapper, AboutTitleBox} from './AboutTitl
 
 const AboutTitle = () => {
   return (
-    <AboutTitleContainer>
+    <AboutTitleContainer id="about">
         <AboutTitleBox>
             <AboutTitleWrapper>
                 <h1>About Me</h1>

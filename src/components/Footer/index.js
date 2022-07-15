@@ -9,9 +9,9 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle> Navigation </FooterLinkTitle>
-                            <FooterLink to="/link"> Home </FooterLink>
-                            <FooterLink to="/link"> Projects </FooterLink>
-                            <FooterLink to="/link"> About </FooterLink>
+                            <FooterLink to='home'> Home </FooterLink>
+                            <FooterLink to='projects'> Projects </FooterLink>
+                            <FooterLink to='about'> About </FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle> Other Media </FooterLinkTitle>

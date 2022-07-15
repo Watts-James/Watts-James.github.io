@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectContainer, ProjectContent,Project,ProjectText, ProjectImg, ProjectTitleWrapper,ProjectInfo, ProjectTitle,ProjectHeader, ProjectHeaderWrapper} from './ProjectElements'
+import { ProjectContainer, ProjectContent,Project,ProjectText, ProjectImg, ProjectTitleWrapper,ProjectInfo, ProjectTitle} from './ProjectElements'
 
 
 const ProjectSection = () => {
