@@ -11,11 +11,11 @@ export const ProjectTitleContainer = styled.div`
 `
 export const ProjectTitleWrapper = styled.div`
     border-radius: 50px;
-    background: #000;
-    color: #d4c85b;
+    background: #6752a2;
+    color: #f0eef6;
     padding: 10px;
     outline-style: solid;
-    outline-color: #d4c85b;
+    outline-color: #f0eef6;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     cursor: default;
     &:hover{

@@ -22,9 +22,10 @@ export const ProjectContent = styled.div`
     margin: 25px;
     flex-direction: column;
     border-radius:25px;
-    background: #ccbadb;
+    background: rgba(204, 186, 219, 0.8);
     padding-top: 20px;
     padding-bottom: 20px;
+    
 
     border-style: outset;
     border-color: #9c52a1;
@@ -49,9 +50,8 @@ export const Project = styled.div`
 
     &:hover{
         transition: all 0.5 ease-in-out;
-        width: 91%;
+       
         box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
-        
     }
 `
 
@@ -73,10 +73,10 @@ export const ProjectTitleWrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: 50px;
-    background: #000;
+    background: #6752a2;
     column-span: all;
     font-weight: bold;
-    color: #d4c85b;
+    color: #f0eef6;
     z-index: 1;
 
     border-bottom-style:solid;

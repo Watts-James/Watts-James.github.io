@@ -1,6 +1,8 @@
 import React from 'react'
-import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image,SkillIcon} from './AboutElements'
-import {DiJavascript1} from 'react-icons/di';
+import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image,SkillIcon,SkillText} from './AboutElements'
+import {DiJava,DiPython,DiAndroid,DiReact} from 'react-icons/di';
+import {SiJavascript,SiCplusplus,SiCss3} from 'react-icons/si';
+import {AiOutlineConsoleSql,AiFillGithub,AiFillHtml5} from 'react-icons/ai'
 
 const AboutSection = () => {
   return (
@@ -17,18 +19,46 @@ const AboutSection = () => {
           </AboutPersonal>
 
           <AboutSkills>
-            <SkillIcon> <DiJavascript1/> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
-            <SkillIcon> </SkillIcon>
+            <SkillIcon> 
+              <SiJavascript/> 
+              <SkillText> JavaScript</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <DiPython/> 
+              <SkillText> Python</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <DiJava/> 
+              <SkillText> Java</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <SiCplusplus/> 
+              <SkillText> C/C#/C++</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <DiAndroid/> 
+              <SkillText> Android Studio</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <AiOutlineConsoleSql/> 
+              <SkillText> SQL</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <DiReact/> 
+              <SkillText> React</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <AiFillGithub/> 
+              <SkillText> Git</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <AiFillHtml5/> 
+              <SkillText> HTML</SkillText>
+            </SkillIcon>
+            <SkillIcon> 
+              <SiCss3/> 
+              <SkillText> CSS</SkillText>
+            </SkillIcon>
           </AboutSkills>
         </AboutContent>
     </AboutContainer>

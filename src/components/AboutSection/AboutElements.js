@@ -35,7 +35,8 @@ export const AboutContent = styled.div`
 export const AboutPersonal = styled.div`
     display:flex;
     background: #fff;
-    border: solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
     width: 95%;
     @media screen and (max-width:768px) {
         flex-direction: column-reverse;
@@ -51,6 +52,7 @@ export const AboutSkills = styled.div`
     margin: 20px;
     background: #FFF;
     flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     
 `
@@ -59,11 +61,13 @@ export const AboutImg = styled.div`
     padding: 20px;
     justify-content: center;
     
+    
 `
 export const Image = styled.img`
     height: 250px;
     width: 250px;
     border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `
 
 export const AboutText = styled.div`
@@ -71,16 +75,29 @@ export const AboutText = styled.div`
     padding: 20px;
     justify-content: center;
     align-items: center;
+    
 `
 
 export const SkillIcon = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100px;
     width: 100px;
-    background: #FFbF;
+    background: #e6e3e8;
     margin: 10px;
     justify-content: center;
     align-items: center;
     font-size: 300%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    &:hover{
+        transition: all 0.5 ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+    }
+`
+
+export const SkillText = styled.div`
+    font-size: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
 `
