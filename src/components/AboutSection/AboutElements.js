@@ -105,4 +105,6 @@ export const SkillText = styled.div`
 
 export const AboutLink = styled.div`
     padding-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
 `
