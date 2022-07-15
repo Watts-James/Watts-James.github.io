@@ -49,7 +49,7 @@ const ProjectSection = () => {
                         <img src={require('./discord.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        A Notification Bot for discord, notifys the server when the first person enters a voice chat, a feature Discord was desperately lacking. Utilizes the Discord API through DiscordJs.
+                        A Notification Bot for discord, notifiess the server when the first person enters a voice chat, a feature Discord was desperately lacking. Utilizes the Discord API through DiscordJs.
                     </ProjectText>
                 </ProjectInfo>
             </Project>
