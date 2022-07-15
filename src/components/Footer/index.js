@@ -9,14 +9,14 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle> Navigation </FooterLinkTitle>
-                            <FooterLink to='home'> Home </FooterLink>
-                            <FooterLink to='projects'> Projects </FooterLink>
-                            <FooterLink to='about'> About </FooterLink>
+                            <FooterLink to='home' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Home </FooterLink>
+                            <FooterLink to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Projects </FooterLink>
+                            <FooterLink to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}> About </FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle> Other Media </FooterLinkTitle>
-                            <FooterLink to="/link"> LinkedIn </FooterLink>
-                            <FooterLink to="/link"> Instagram </FooterLink>
+                            <FooterLink to="https://www.instagram.com/wattzzz"> LinkedIn </FooterLink>
+                            <FooterLink to="https://ca.linkedin.com/in/james-watts-b40700214"> Instagram </FooterLink>
                            
                     </FooterLinkItems>
                 </FooterLinksWrapper>

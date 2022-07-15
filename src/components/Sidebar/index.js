@@ -9,18 +9,18 @@ const Sidebar = ({isOpen,toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="home" onClick={toggle}>
+                <SidebarLink to="home" smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
                     Home
                 </SidebarLink>
-                <SidebarLink to="projects" onClick={toggle}>
+                <SidebarLink to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
                     Projects
                 </SidebarLink>
-                <SidebarLink to="about" onClick={toggle}>
+                <SidebarLink to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
                     About
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/link">Résumé</SidebarRoute>
+                <SidebarRoute to="https://www.instagram.com/wattzzz">Résumé</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
