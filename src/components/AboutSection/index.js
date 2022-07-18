@@ -1,12 +1,19 @@
 import React from 'react'
-import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image,SkillIcon,SkillText,AboutLink} from './AboutElements'
+import {AboutContainer,AboutContent,AboutPersonal,AboutSkills,AboutImg, AboutText,Image,SkillIcon,SkillText,AboutLink,AboutTitleContainer,AboutTitleBox,AboutTitleWrapper} from './AboutElements'
 import {DiJava,DiPython,DiAndroid,DiReact} from 'react-icons/di';
 import {SiJavascript,SiCplusplus,SiCss3} from 'react-icons/si';
 import {AiOutlineConsoleSql,AiFillGithub,AiFillHtml5} from 'react-icons/ai'
 
 const AboutSection = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
+      <AboutTitleContainer >
+          <AboutTitleBox>
+              <AboutTitleWrapper>
+                  <h1>About Me</h1>
+              </AboutTitleWrapper>
+          </AboutTitleBox>
+      </AboutTitleContainer>
         <AboutContent>
           <AboutPersonal>
             <AboutText>
