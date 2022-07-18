@@ -23,7 +23,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to="https://www.instagram.com/wattzzz">Résumé</NavBtnLink>
+                  <NavBtnLink to={{pathname: "https://www.instagram.com/wattzzz"}}target="_blank">Résumé</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
