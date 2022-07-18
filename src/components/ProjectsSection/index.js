@@ -26,7 +26,7 @@ const ProjectSection = () => {
                         <img src={require('./Dungeons&Deadlifts.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Workout Tracker meets classic RPG. Dungeons & Deadlifts was crafted using Android Studio. Complete with persistent back-end and fully animated custom characters.
+                        Served as a key member of a development team to create a workout tracker with classic RPG elements. Dungeons & Deadlifts was crafted using Android Studio. Complete with persistent back-end and fully animated custom characters. 
                     </ProjectText>
                 </ProjectInfo>
             </Project>
@@ -58,7 +58,7 @@ const ProjectSection = () => {
                         <img src={require('./discord.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        A Notification Bot for discord, notifiess the server when the first person enters a voice chat, a feature Discord was desperately lacking. Utilizes the Discord API through DiscordJs.
+                        A Notification Bot for discord, notifies the server when the first person enters a voice chat, a feature Discord was desperately lacking. Utilizes the Discord API through DiscordJs.
                     </ProjectText>
                 </ProjectInfo>
             </Project>
@@ -74,7 +74,7 @@ const ProjectSection = () => {
                         <img src={require('./BoredGames.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        A prototype app developed to provide personally relevant reviews for board and card games. Built using React and the Board Game Atlas API.
+                        A prototype app developed to provide personally relevant reviews for board and card games. Built using React and the Board Game Atlas API. The development team constructed and applied real world experiments to craft the best user experience.
                     </ProjectText>
                 </ProjectInfo>
             </Project>

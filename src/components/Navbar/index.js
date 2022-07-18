@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='home'>James Watts</NavLogo>
+                <NavLogo to='home' smooth={true} duration={500} spy={true} exact='true' offset={-80}>James Watts</NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars />
                 </MobileIcon>
@@ -23,7 +23,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to={{pathname: "https://www.instagram.com/wattzzz"}}target="_blank">Résumé</NavBtnLink>
+                  <NavBtnLink to={{pathname:"https://www.instagram.com/wattzzz"}}target="_blank">Résumé</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
