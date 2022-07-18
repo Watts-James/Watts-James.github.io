@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='Video/mp4'/>
+            <VideoBg autoPlay={true} loop={true} muted={true} playsinline={true} src={Video} type='Video/mp4'/>
         </HeroBg>
         <HeroContent>
           <HeroH1> James Watts</HeroH1>
