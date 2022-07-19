@@ -1,13 +1,14 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
 import {Nav,NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
+import resume from '../../resume/Resume.pdf'
 
 const Navbar = ({ toggle }) => {
   return (
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='home' smooth={true} duration={500} spy={true} exact='true' offset={-80}>James Watts</NavLogo>
+                <NavLogo to='home' >James Watts</NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars />
                 </MobileIcon>
@@ -23,7 +24,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to={{pathname:"https://www.instagram.com/wattzzz"}}target="_blank">Résumé</NavBtnLink>
+                  <NavBtnLink to={resume} target="_blank">Résumé</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

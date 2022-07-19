@@ -1,5 +1,6 @@
 import React from 'react'
 import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap,SidebarRoute } from './SidebarElements';
+import resume from '../../resume/Resume.pdf'
 
 const Sidebar = ({isOpen,toggle}) => {
   return (
@@ -20,7 +21,7 @@ const Sidebar = ({isOpen,toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="https://www.instagram.com/wattzzz">Résumé</SidebarRoute>
+                <SidebarRoute to={resume}>Résumé</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
