@@ -26,7 +26,7 @@ const ProjectSection = () => {
                         <img src={require('./Dungeons&Deadlifts.png')} width="200" height = "200"/>
                     </ProjectImg>
                     <ProjectText> 
-                        Served as a key member of a development team to create a workout tracker with classic RPG elements. Dungeons & Deadlifts was crafted using Android Studio. Complete with persistent back-end and fully animated custom characters. 
+                        Served as a key member of a development team that created a workout tracker with classic RPG elements. Dungeons & Deadlifts was crafted using Android Studio. Complete with persistent back-end and fully animated custom characters. 
                     </ProjectText>
                 </ProjectInfo>
             </Project>
