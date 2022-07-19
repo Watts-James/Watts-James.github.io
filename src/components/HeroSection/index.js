@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import {useNavigate} from "react-router-dom";
 import Video from '../../videos/file.mp4'
 import {Button} from '../ButtonElement';
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements'

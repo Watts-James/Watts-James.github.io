@@ -15,9 +15,8 @@ const Footer = () => {
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle> Other Media </FooterLinkTitle>
-                            <FooterLink to="https://www.instagram.com/wattzzz"> LinkedIn </FooterLink>
-                            <FooterLink to="https://ca.linkedin.com/in/james-watts-b40700214"> Instagram </FooterLink>
-                           
+                            <FooterLink onClick={()=>window.open("https://ca.linkedin.com/in/james-watts-b40700214", '_blank')}> LinkedIn </FooterLink>
+                            <FooterLink onClick={()=>window.open("https://www.instagram.com/wattzzz", '_blank')}> Instagram </FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
