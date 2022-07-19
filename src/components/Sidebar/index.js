@@ -21,7 +21,7 @@ const Sidebar = ({isOpen,toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to={resume}>Résumé</SidebarRoute>
+                <SidebarRoute to={resume} target="_blank">Résumé</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
