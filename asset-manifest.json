@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.d7da34c1.css",
-    "main.js": "/static/js/main.d10ca269.js",
+    "main.js": "/static/js/main.cb1f005e.js",
     "static/media/file.mp4": "/static/media/file.e61a187360adaf0af641.mp4",
     "static/media/Me.png": "/static/media/Me.3d8d7058c41ff825396d.png",
     "static/media/BoredGames.png": "/static/media/BoredGames.59d57d8993cf961778c6.png",
     "static/media/Website.png": "/static/media/Website.836fc3c0fa878da31e4c.png",
     "static/media/Dungeons&Deadlifts.png": "/static/media/Dungeons&Deadlifts.25d0548355c9457cadb8.png",
     "static/media/DataMining.png": "/static/media/DataMining.07859156af79ba7525e4.png",
+    "static/media/Resume.pdf": "/static/media/Resume.f9105c0cd58a9fbcb77d.pdf",
     "index.html": "/index.html",
     "main.d7da34c1.css.map": "/static/css/main.d7da34c1.css.map",
-    "main.d10ca269.js.map": "/static/js/main.d10ca269.js.map"
+    "main.cb1f005e.js.map": "/static/js/main.cb1f005e.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.d10ca269.js"
+    "static/js/main.cb1f005e.js"
   ]
 }
